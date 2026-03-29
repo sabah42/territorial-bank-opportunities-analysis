@@ -77,3 +77,50 @@ Le projet comprend :
 ---
 
 ## Structure du projet
+amazon_reviews_analysis/
+│
+
+├── data/ # Données du projet
+
+│ ├── raw/ # Données brutes 
+
+│ │ ├── population.csv
+
+│ │ ├── revenu.csv
+
+│ │ └── bpr.cvs 
+
+│ └── processed/ # Données traitées pour l’analyse
+
+│ └── commune_kmeans.csv
+
+│
+├── src/ # Code source sas
+
+│ ├── setup.sas
+
+│ ├── import_data1.sas
+
+│ ├── join1.sas
+
+│ ├── scoring1.sas
+
+│ └── kmeans1.sas
+
+│
+├── reports/ # Résultats et livrables
+
+│ ├── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
+
+│ ├── tableau_de_bord_page_1.png # Capture – Vue globale du marché
+
+│ ├── tableau_de_bord_page_2.png # Capture – Analyse du potentiel
+
+│ ├── tableau_de_bord_page_3.png # Capture – Identification des opportinutés
+
+│ └──  tableau_de_bord_page_4.png # Capture – Validation par k-means et terrain
+
+├── README.md # Documentation du projet
+
+---
+
