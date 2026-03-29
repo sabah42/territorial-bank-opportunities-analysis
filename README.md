@@ -77,7 +77,7 @@ Le projet comprend :
 ---
 
 ## Structure du projet
-amazon_reviews_analysis/
+territorial-bank-opportunities-analysis/
 │
 
 ├── data/ # Données du projet
@@ -109,10 +109,13 @@ amazon_reviews_analysis/
 
 │
 ├── reports/ # Résultats et livrables
+
 | ├── dashbord/ # tableau de bord power bi
 
 │ | └── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
-│
+
+
+
 | ├── screenshots/ # capture - tableau de bord power bi
 
 | │ ├── tableau_de_bord_page_1.png # Capture – Vue globale du marché
