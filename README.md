@@ -97,15 +97,15 @@ territorial-bank-opportunities-analysis/
 │
 ├── src/ # Code source sas
 
-│ ├── setup.sas
+│ ├── setup.sas # Configuration de l’environnement (chemins, bibliothèques, variables globales)
 
-│ ├── import_data1.sas
+│ ├── import_data1.sas # Import et préparation des données brutes
 
-│ ├── join1.sas
+│ ├── join1.sas # Fusion des différentes sources de données au niveau commune
 
-│ ├── scoring1.sas
+│ ├── scoring1.sas # Calcul des indicateurs et construction du score de potentiel
 
-│ └── kmeans1.sas
+│ └── kmeans1.sas # Segmentation des communes et validation du modèle avec K-Means
 
 │
 ├── reports/ # Résultats et livrables
