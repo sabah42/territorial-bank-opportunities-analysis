@@ -88,7 +88,7 @@ amazon_reviews_analysis/
 
 │ │ ├── revenu.csv
 
-│ │ └── bpr.cvs 
+│ │ └── bpe.cvs 
 
 │ └── processed/ # Données traitées pour l’analyse
 
@@ -108,19 +108,20 @@ amazon_reviews_analysis/
 │ └── kmeans1.sas
 
 │
-├── dashbord/ # tableau de bord power bi
+├── reports/ # Résultats et livrables
+| ├── dashbord/ # tableau de bord power bi
 
-│ └── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
+│ | └── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
 │
-├── screenshots/ # capture - tableau de bord power bi
+| ├── screenshots/ # capture - tableau de bord power bi
 
-│ ├── tableau_de_bord_page_1.png # Capture – Vue globale du marché
+| │ ├── tableau_de_bord_page_1.png # Capture – Vue globale du marché
 
-│ ├── tableau_de_bord_page_2.png # Capture – Analyse du potentiel
+| │ ├── tableau_de_bord_page_2.png # Capture – Analyse du potentiel
 
-│ ├── tableau_de_bord_page_3.png # Capture – Identification des opportinutés
+| │ ├── tableau_de_bord_page_3.png # Capture – Identification des opportinutés
 
-│ └──  tableau_de_bord_page_4.png # Capture – Validation par k-means et terrain
+| │ └──  tableau_de_bord_page_4.png # Capture – Validation par k-means et terrain
 
 ├── README.md # Documentation du projet
 
