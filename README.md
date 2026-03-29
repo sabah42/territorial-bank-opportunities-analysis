@@ -92,7 +92,7 @@ amazon_reviews_analysis/
 
 │ └── processed/ # Données traitées pour l’analyse
 
-│ └── commune_kmeans.csv
+│ │ └── commune_kmeans.csv
 
 │
 ├── src/ # Code source sas
@@ -108,9 +108,11 @@ amazon_reviews_analysis/
 │ └── kmeans1.sas
 
 │
-├── reports/ # Résultats et livrables
+├── dashbord/ # tableau de bord power bi
 
-│ ├── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
+│ └── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
+│
+├── screenshots/ # capture - tableau de bord power bi
 
 │ ├── tableau_de_bord_page_1.png # Capture – Vue globale du marché
 
@@ -123,4 +125,112 @@ amazon_reviews_analysis/
 ├── README.md # Documentation du projet
 
 ---
+---
 
+## Étapes principales
+
+1. Collecte et préparation des données
+2. Nettoyage via Power Query et sas
+3. Construction du score de potentiel(SAS)
+4. Segmentation des communes avec K-Means (SAS)
+5. Création du dashboard Power BI
+6. Validation terrain via Google Maps
+
+---
+
+## Description du tableau de bord
+
+### Page 1 – Vue globale du marché
+
+Analyse du territoire :
+- nombre de communes,
+- population,
+- densité bancaire,
+- répartition des équipements.
+
+Objectif : comprendre la structure globale du marché.
+
+---
+
+### Page 2 – Analyse du potentiel
+
+Construction et analyse du score :
+- distribution du score,
+- relation avec la population,
+- identification des communes à fort potentiel.
+
+Objectif : détecter les zones intéressantes.
+
+---
+
+### Page 3 – Identification des opportunités
+
+Sélection des communes prioritaires :
+- communes sans banque,
+- population > 3000 habitants,
+- score élevé.
+
+Objectif : identifier les cibles prioritaires.
+
+---
+
+### Page 4 – Validation (K-Means & terrain)
+
+- segmentation des communes (clusters),
+- validation via distances réelles aux agences (Google Maps).
+
+Objectif : confirmer la pertinence des choix.
+
+---
+
+## Principaux insights
+
+- Une part importante des communes est sous-couverte en services bancaires
+- Trois communes ressortent comme prioritaires :
+  **Bonson, Genilac et Savigneux**
+- Ces communes combinent :
+  - une faible couverture bancaire,
+  - une population significative,
+  - une distance élevée aux agences existantes
+
+---
+
+## Recommandations
+
+## Recommandations
+
+- Prioriser l’implantation dans les communes identifiées (Bonson, Genilac, Savigneux)
+
+- Compléter l’analyse avec des données sur le comportement client 
+  (taux de bancarisation, usage digital, profils socio-économiques)
+
+- Analyser la concurrence locale et les stratégies des banques existantes 
+
+- Renforcer la validation terrain (accessibilité, zones de passage)
+
+- Améliorer le modèle avec d’autres méthodes (hiérarchique, DBSCAN) et données complémentaires
+
+---
+
+## Compétences utilisées
+
+- Analyse de données territoriales
+- Scoring et pondération
+- Clustering (K-Means)
+- Data visualisation (Power BI)
+- Interprétation métier
+- Validation terrain
+
+---
+
+## Résultats
+
+- Dashboard interactif Power BI
+- Identification de zones prioritaires
+- Approche combinant data et terrain
+
+---
+
+## Auteur
+
+Sabah ASSAS
