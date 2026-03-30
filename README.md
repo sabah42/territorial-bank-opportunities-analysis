@@ -203,14 +203,15 @@ Objectif : confirmer la pertinence des choix.
 
 - Prioriser l’implantation dans les communes identifiées (Bonson, Genilac, Savigneux)
 
-- Compléter l’analyse avec des données sur le comportement client 
-  (taux de bancarisation, usage digital, profils socio-économiques)
+- Intégrer des données sur le comportement client (usage bancaire, typologie de clientèle) afin d’affiner la stratégie commerciale.
 
-- Analyser la concurrence locale et les stratégies des banques existantes 
+- Analyser la concurrence locale (présence bancaire, saturation du marché) pour identifier les zones à opportunité.
 
-- Renforcer la validation terrain (accessibilité, zones de passage)
+-  Renforcer la validation terrain en croisant les résultats avec des observations locales (présence réelle d’agences, accessibilité, dynamique économique).
 
-- Améliorer le modèle avec d’autres méthodes (hiérarchique, DBSCAN) et données complémentaires
+- Améliorer le modèle en intégrant des données complémentaires, notamment les données DVF (transactions immobilières), pour mieux évaluer le potentiel économique et la capacité d’investissement des ménages.
+
+- Mettre en place des critères de priorisation basés sur des seuils statistiques (ex : quartiles) afin de segmenter les communes et identifier les zones les plus stratégiques.
 
 ---
 
