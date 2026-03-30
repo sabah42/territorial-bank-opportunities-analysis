@@ -88,14 +88,14 @@ territorial-bank-opportunities-analysis/
 
 │ │ ├── revenu.csv
 
-│ │ └── bpe.cvs 
+│ │ └── bpe.csv 
 
 │ └── processed/ # Données traitées pour l’analyse
 
 │ │ └── commune_kmeans.csv
 
 │
-├── src/ # Code source sas
+├── src/ # Code source SAS
 
 │ ├── setup.sas # Configuration de l’environnement (chemins, bibliothèques, variables globales)
 
@@ -110,7 +110,7 @@ territorial-bank-opportunities-analysis/
 │
 ├── reports/ # Résultats et livrables
 
-| ├── dashbord/ # tableau de bord power bi
+| ├── dashboard/ # tableau de bord power bi
 
 │ | └── Analyse territoriale des opportunités bancaires (Loire & Haute Loire).pbit # Template Power BI du tableau de bord
 
@@ -122,7 +122,7 @@ territorial-bank-opportunities-analysis/
 
 | │ ├── tableau_de_bord_page_2.png # Capture – Analyse du potentiel
 
-| │ ├── tableau_de_bord_page_3.png # Capture – Identification des opportinutés
+| │ ├── tableau_de_bord_page_3.png # Capture – Identification des opportunités
 
 | │ └──  tableau_de_bord_page_4.png # Capture – Validation par k-means et terrain
 
@@ -198,8 +198,6 @@ Objectif : confirmer la pertinence des choix.
   - une distance élevée aux agences existantes
 
 ---
-
-## Recommandations
 
 ## Recommandations
 
